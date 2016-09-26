@@ -1,0 +1,32 @@
+.text-center {
+	text-align: center;
+}
+
+@media (max-width: 543px) {
+	h1.responsive-text {
+		font-size: 10vw;
+	}
+	h2.responsive-text {
+		font-size: 8vw;
+	}
+	h3.responsive-text {
+		font-size: 7vw;
+	}
+	h4.responsive-text {
+		font-size: 6vw;
+	}
+	h5.responsive-text {
+		font-size: 5vw;
+	}
+}
+
+.header {
+	padding: 2rem 1rem;
+	margin-bottom: 2rem;
+}
+
+@media (min-width: 544px) {
+	.header {
+		padding: 4rem 2rem;
+	}
+}
