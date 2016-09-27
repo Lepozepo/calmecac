@@ -2,9 +2,13 @@
 <html>
 	<head>
 		<title>Calmecac - Development Project Management</title>
+		<meta name="description" content="A web development project management guide for new project managers that want to keep things simple and effective">
+		<meta name="keywords" content="development,project management,guide,leadership,web,native,github,scrum,gantt,results-driven">
+
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.4/css/bootstrap.min.css" integrity="sha384-2hfp1SzUoho7/TsGGGDaFdsuuDL0LX2hnUp6VkX3CUQ2K4K+xjboZdsXyp4oUHZj" crossorigin="anonymous">
 		<link rel="stylesheet" type="text/css" href="typography.css">
+		<link rel="stylesheet" type="text/css" href="index.css">
 	</head>
 
 	<body>
@@ -24,7 +28,7 @@
 					<p>With this development workflow your team will be able to:</p>
 					<ul>
 						<li>Identify High Value Issues</li>
-						<li>Identify "Drowning" Branches</li>
+						<li>Identify when they are stuck and what to do</li>
 						<li>Build Features Faster</li>
 						<li>Produce Evolution-Ready Code</li>
 					</ul>
@@ -36,12 +40,90 @@
 			</div>
 		</section>
 
-		<section id="nutshell" class="container">
+		<section id="whatToDo" class="container">
 			<div class="row">
 				<div class="col-xs-12">
-					<p>In a nutshell</p>
+					<h4>What you need to do</h4>
+					<ul class="list-unstyled">
+						<li><strong>Run a Design Sprint</strong> to identify product features and due dates</li>
+						<li><strong>Build a delivery pipeline</strong> to quickly show progress to the customer</li>
+						<li><strong>Build a learning hub</strong> to keep all developers programming using similar development patterns</li>
+						<li><strong>Enforce real collaboration</strong> to maximize everyone's strengths</li>
+					</ul>
 				</div>
 			</div>
 		</section>
+
+		<section id="designSprint" class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h4>Run a Design Sprint</h4>
+					<p class="text-justify">
+						There are many ways to do Design Sprints. How you do it depends on the project's <strong>time and budget.</strong>
+						Although I highly recommend <a href="http://www.gv.com/sprint/">Google Design Sprints</a>, they can be unnecessarily long.
+						It's more important to understand the goal of the Design Sprint and build a custom approach than following the guide step by step.
+					</p>
+					<p><strong>So what matters?</strong> A Design Sprint needs to answer these 4 key questions:</p>
+					<ul>
+						<li>What is the problem you are solving? (Problem)</li>
+						<li>How are you solving it? (Strategy)</li>
+						<li>What milestones do you need to achieve? (Tactics)</li>
+						<li>What does the solution look like? (Objectives)</li>
+					</ul>
+
+					<h5>Here's an example</h5>
+					<p>Suppose you own a shop and you want to reduce costs by improving inventory management</p>
+
+					<div class="card card-outline-info">
+						<div class="card-header bg-info">Problem</div>
+						<div class="card-block">
+							<p><strong>What is the problem you are solving? (Problem)</strong></p>
+							<p>I can improve inventory management by:</p>
+							<ul>
+								<li>reducing time spent when I interact with my inventory (restocking and purchase orders)</li>
+								<li>reducing the amount of resources I use to keep track of my inventory (people spent restocking, counting, or receiving orders)</li>
+							</ul>
+							<h5 class="text-center"><strong>I choose to reduce time spent</strong></h5>
+						</div>
+					</div>
+
+					<div class="card card-outline-info">
+						<div class="card-header bg-info">Strategy</div>
+						<div class="card-block">
+							<p><strong>How are you solving it? (Strategy)</strong></p>
+							<p>I can reduce time spent on my inventories by:</p>
+							<ul>
+								<li>increasing speed of interactions with inventories</li>
+								<li>decreasing visits to inventories</li>
+							</ul>
+							<h5 class="text-center"><strong>I choose to increase the speed of interactions</strong></h5>
+						</div>
+					</div>
+
+					<div class="card card-outline-info">
+						<div class="card-header bg-info">Tactics</div>
+						<div class="card-block">
+							<p><strong>What milestones do you need to achieve? (Tactics)</strong></p>
+							<p>To increase the speed of interactions with inventories I need to</p>
+							<ul>
+								<li>organize my inventories and reflect this organization on a system so that anyone that understands the system can immediately understand the inventory</li>
+								<li>synchronize sales to restock orders so less time is spent counting store inventory</li>
+								<li>synchronize purchase orders to inventory so less time is spent organizing warehouse inventory</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="card card-outline-info">
+						<div class="card-header bg-info">Objectives</div>
+						<div class="card-block">
+							<p><strong>What does the solution look like? (Objectives)</strong></p>
+							<p>To achieve my milestones, I need to build an application that looks like this (I didn't draw this):</p>
+						</div>
+						<div class="prototypeImg"></div>
+					</div>
+				</div>
+			</div>
+		</section>
+
 	</body>
 </html>

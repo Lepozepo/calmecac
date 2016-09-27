@@ -1,0 +1,12 @@
+.prototypeImg {
+	background: url("assets/prototypeSample.jpg");
+	background-size: cover;
+	background-position: center top;
+	height: 100px;
+}
+
+@media (min-width: 544px) {
+	.prototypeImg {
+		height: 200px;
+	}
+}
