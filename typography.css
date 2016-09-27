@@ -14,6 +14,10 @@ p, li {
 	text-align: justify;
 }
 
+.card-header:first-child {
+	border-radius: 0;
+}
+
 @media (max-width: 543px) {
 	h1.responsive-text {
 		font-size: 10vw;
