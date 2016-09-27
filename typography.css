@@ -6,6 +6,10 @@ p, li {
 	font-weight: 300;
 }
 
+strong {
+	font-weight: 500;
+}
+
 .text-center {
 	text-align: center;
 }
@@ -16,6 +20,10 @@ p, li {
 
 .card-header:first-child {
 	border-radius: 0;
+}
+
+.card-outline-inverse {
+	border-color: #373a3c;
 }
 
 @media (max-width: 543px) {
